@@ -1,0 +1,6 @@
+Para compilar nos bastara con situarnos con la consola en esta carpeta y ejecutar la orden: make 
+
+Para ejecutar el programa deberemos ejecutar la orden:
+mpirun -n <Numero de Procesos a lanzar> ./Toroid <Ruta al archivo donde se albergan los datos> <Lado del Toroide>
+
+OJO: Tenga en cuenta que el <Numero de Procesos a lanzar> debe ser exactamente el <Lado del Toroide> elevado al cuadrado o el programa no se ejecutara
